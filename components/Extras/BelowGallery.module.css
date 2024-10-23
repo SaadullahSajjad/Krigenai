@@ -1,0 +1,15 @@
+.back{
+    background: url(../../images/below.PNG) no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  gap: 1rem;
+}

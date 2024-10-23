@@ -1,0 +1,35 @@
+
+
+.imagecontainer {
+    display: flex;
+    width: 300rem;
+    gap: 2rem;
+    overflow: hidden;
+    animation: slide 25s linear infinite;
+    
+  
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(-45%);
+    }
+  }
+
+
+  /* @media (max-width: 640px) { 
+
+    .imagecontainer {
+      display: flex;
+      flex-direction: column;
+      width: 300rem;
+      
+      
+    
+    }
+
+  }
+   */

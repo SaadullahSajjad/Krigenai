@@ -1,0 +1,20 @@
+
+
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  animation: slide 10s linear infinite;
+  
+
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(70%);
+  }
+  to {
+    transform: translateX(-70%);
+  }
+}
